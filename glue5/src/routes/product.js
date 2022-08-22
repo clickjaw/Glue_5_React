@@ -4,13 +4,14 @@ import Footer from "./Footer"
 
 
 export default function Product(){
+  
+
     let params = useParams();
 
   return (
     <>
     <h2>Product {params.productId} </h2>
-    <Footer 
-    productId = {params.productId}/>
+    <Footer />
     </>
   );
 }

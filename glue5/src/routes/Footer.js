@@ -4,7 +4,7 @@ const Footer = (props) => {
   return (
     <div>
 
-    {`this product number is ${props.productId}`}
+    {`Tyler Morgan 2022`}
 
     </div>
 
